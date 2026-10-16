@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Zad1</string>
+    <string name="button_true">Prawda</string>
+    <string name="button_false">Fałsz</string>
+    <string name="button_next">Następne</string>
+    <string name="correct_answer">Prawidłowa odpowiedź!</string>
+    <string name="incorrect_answer">Błędna odpowiedź!</string>
+    <string name="q1">Andy Rubin był głównym założycielem firmy Android Inc.</string>
+    <string name="q2">Firma Android Inc. powstała w 2001 roku</string>
+    <string name="q3">Pierwotnym celem Androida była aplikacja pogodowa</string>
+    <string name="q4">Google przejęło Android Inc. w 2005 roku</string>
+    <string name="q5">Pierwszy telefon z Androidem to HTC Dream</string>
+    <string name="button_restart">Spróbuj jeszcze raz</string>
+</resources>
