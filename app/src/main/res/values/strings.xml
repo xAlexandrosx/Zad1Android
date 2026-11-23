@@ -1,14 +1,19 @@
 <resources>
-    <string name="app_name">Zad1</string>
+    <string name="app_name">zad1</string>
     <string name="button_true">Prawda</string>
     <string name="button_false">Fałsz</string>
     <string name="button_next">Następne</string>
-    <string name="correct_answer">Prawidłowa odpowiedź!</string>
-    <string name="incorrect_answer">Błędna odpowiedź!</string>
+    <string name="hint_button">Podpowiedź</string>
+    <string name="confirm_show_answer">Czy na pewno chcesz zobaczyć odpowiedź?</string>
+    <string name="show_answer_button">Pokaż odpowiedź</string>
+    <string name="correct_answer">Odpowiedź poprawna</string>
+    <string name="incorrect_answer">Odpowiedź niepoprawna</string>
+    <string name="answer_was_shown">Podpowiedź została wyświetlona</string>
     <string name="q1">Andy Rubin był głównym założycielem firmy Android Inc.</string>
     <string name="q2">Firma Android Inc. powstała w 2001 roku</string>
     <string name="q3">Pierwotnym celem Androida była aplikacja pogodowa</string>
     <string name="q4">Google przejęło Android Inc. w 2005 roku</string>
     <string name="q5">Pierwszy telefon z Androidem to HTC Dream</string>
     <string name="button_restart">Spróbuj jeszcze raz</string>
+
 </resources>

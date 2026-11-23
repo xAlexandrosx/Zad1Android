@@ -14,16 +14,13 @@ class SummaryActivity : AppCompatActivity() {
         val summaryTextView = findViewById<TextView>(R.id.summary_text_view)
         val restartButton = findViewById<Button>(R.id.restart_button)
 
-        // Odczytanie przekazanych danych z MainActivity
         val score = intent.getIntExtra("SCORE_EXTRA", 0)
         val total = intent.getIntExtra("TOTAL_EXTRA", 5)
 
         summaryTextView.text = "Poprawne odpowiedzi: $score/$total"
 
-        // Obsługa przycisku "Spróbuj jeszcze raz"
         restartButton.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
-            // Flagi czyszczące historię ekranów, żeby po powrocie zamknąć SummaryActivity
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
             startActivity(intent)
             finish()

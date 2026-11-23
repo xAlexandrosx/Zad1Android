@@ -22,8 +22,12 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".PromptActivity"
+            android:exported="false" />
+        <activity
             android:name=".SummaryActivity"
             android:exported="false" />
+
     </application>
 
 </manifest>
